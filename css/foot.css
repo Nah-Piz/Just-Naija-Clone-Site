@@ -1,0 +1,56 @@
+
+
+footer {
+  background-color: #3d3d3d;
+}
+.footer-body {
+  display: grid;
+  padding: 1rem;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 20px;
+  border-top: 2px solid #b6adad;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+.list li {
+  font-weight: bold;
+  color: #999;
+  padding: 0rem 0.4rem 0 0;
+}
+.list li:hover {
+  text-decoration: underline;
+}
+.boox1 h1, .boox2 h1, 
+.boox3 h1, .boox4 h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #999;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0);
+}
+
+.skra, .naija {
+  display: flex;
+  justify-content: center;
+  color: #999;
+}
+.skra > .tom {
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding-left: 0.5rem;
+  text-shadow: 1px 1px 0px #000;
+}
+.skra span {
+  color: #999;
+}
+.skra > .tom:hover {
+  text-decoration: underline;
+  text-shadow: none;
+}
+.naija {
+  padding-bottom: 2rem;
+}

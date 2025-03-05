@@ -1,0 +1,466 @@
+
+
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  background-color: #555;
+  padding: 1rem 0;
+}
+.file-0 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  position: relative;
+}
+.date {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35%;
+  font-size: 0.8rem;
+  background-color: #f5f5f5;
+  padding: 0.4rem;
+  text-align: center;
+  color: #000;
+  border: 1px solid #bdbaba;
+}
+.lazy {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  object-fit: cover;
+  object-position: center;
+}
+.file-info h1 {
+  margin: 1rem 2rem;
+  word-break: break-all;
+  text-align: center;
+  width: 270px;
+  color: #333;
+}
+.ads img {
+  padding: 1rem;
+  color: #1151d3;
+}
+
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 10px;
+}
+.side-head {
+  background-color: #000;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+.adds span {
+  color: #fff;
+}
+.side-content {
+  background-color: #fff;
+  padding: 0.8rem;
+}
+.side-nav-1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.side-nav-1 li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-bottom: 3px solid #000;
+}
+.side-nav-1 .active {
+  background-color: #000;
+  color: #fff;
+}
+.active-content {
+  padding: 1rem 0.5rem;
+}
+.msc-tnd {
+  margin: 0;
+  padding: 0;
+}
+.you h4 {
+  display: block;
+  color: #0000008c;
+  margin: 0 0.5rem;
+  vertical-align: middle;
+}
+.msc-img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: 230px;
+}
+.msc-dtl {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.pop-search {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sera {
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  display: flex;
+}
+.sea {
+  background-color: #1151d3;
+  color: #fff;
+  padding: 0.5rem;
+  margin: 0;
+}
+.rch {
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.pagination {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  gap: 20px;
+}
+.paging {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+.page0 a {
+  border: 1px solid #bdbaba;
+  text-decoration: none;
+  padding: 0.6rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #000;
+}
+.page0 a:not(.active) {
+  background-color: #000;
+  color: #fff;
+  transition: all 0.15s ease;
+}
+.page0 a:not(.active):hover {
+  text-decoration: underline;
+}
+.page-no {
+  color: #000;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+}
+
+
+/************ Song Pag***********/
+.content {
+  background-color: #f5f5f5;
+  padding: 1.5rem 1rem;
+}
+.content-container {
+}
+.pads {
+  padding: 0 1rem;
+}
+.cate {
+  background-color: #1095f5;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.page-title {
+  font-size: 1.5rem;
+}
+.page-img {
+  height: 100px;
+  display: block;
+}
+.page-title,
+.page-img span,
+.post-info,
+td span,
+figure img,
+td, p, strong, span,
+.sure {
+  color: #333;
+}
+.post-info {
+  font-size: 0.9rem;
+}
+.poost {
+  position: relative;
+}
+.poost::after {
+  content: "Racheal";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 5.0rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #1151d3;
+  width: 100px;
+}
+a {
+  text-decoration: none;
+  color: #1151d3;
+}
+a:hover, a:focus {
+  text-decoration: underline;
+}
+tr {
+  position: relative;
+}
+tr::before {
+  content: "\2022";
+  font-size: 150%;
+  position: absolute;
+  color: #333;
+  vertical-align: middle !important;
+}
+figure, table {
+  margin-left: 40px;
+}
+figure img {
+  
+  width: 80%;
+}
+td {
+  padding: 0.5rem 1rem;
+}
+td:first-child {
+  width: 30%;
+}
+.wehead a {
+  text-transform: uppercase;
+}
+p {
+  line-height: 1.5rem;
+  margin: 1rem 1rem;
+}
+.telegram {
+  margin: 1rem;
+  border: 1px solid #0088cc;
+  background-color: #f0f8ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+.tele {
+  border-radius: 0px;
+  background-color: #0088cc;
+  padding: 0.6rem;
+  color: #fff;
+}
+.sure {
+  display: block;
+}
+.para {
+  text-transform: capitalize !important;
+}
+.kiop {
+  margin: 1.2rem 0;
+}
+.kiok, .kiol {
+  font-weight: bold;
+  color: #fff;
+}
+.kiok {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.kio {
+  width: 80%;
+  margin: 0 auto;
+  transition: transform 0.15s ease;
+  word-break: break-all;
+}
+.kiok:hover, .kio:hover {
+  text-decoration: none;
+  transform: scale(1.08);
+}
+.kio {
+  background-color: #1095f5;
+  border-radius: 8px;
+  padding: 1rem;
+}
+.kiol {
+  text-transform: uppercase;
+}
+.gram {
+  color: #c33300;
+  font-size: 1.1rem;
+  margin: 1.2rem 0;
+}
+.upload {
+  display: inline-block;
+  padding: 1rem 1.3rem;
+  background-color: #f0f0f0;
+}
+.load, .upload span {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+hr {
+  color: rgb(0, 0, 0, 0.1);
+}
+.quate {
+  display: flex;
+  align-items: center;
+  gap: 1rem 1.5rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.pino {
+  padding: 0.5rem;
+  background-color: #f0f0f0;
+  text-transform: uppercase;
+  color: #222;
+  font-size: 1.2rem;
+}
+.uyo {
+  padding: 0 0 1rem 1rem;
+  border-top: 1px solid rgb(0, 0, 0, 0.1);
+  display: flex;
+  padding: 0.5rem;
+}
+.uyo:last-child {
+  border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+
+}
+.uyo span {
+  padding: .5rem 0;
+  color: #333;
+  font-size: 1.5rem;
+}
+.ouy {
+  width: 70px;
+  height: 70px;
+}
+.you h2 {
+  color: #000;
+  margin: 0rem 0 0.5rem 1rem;
+}
+.you p {
+  margin: 0 1rem;
+}
+.known {
+  background-color: #fff;
+  padding: 1.5rem 0rem 0.98rem 0rem;
+  margin: 0 auto;
+  box-shadow: 1px 1px 1px 0px rgb(0, 0, 0, 0.3);
+  border: 1px solid #bdbaba;
+}
+.cmt {
+  padding: 1rem 0.5rem;
+  background-color: #f2f2f2;
+  border-top: 1px solid #bdbaba;
+  color: #222;
+}
+.form-wpr {
+  padding: 0.5rem;
+}
+.row {
+  padding-top: 0.8rem;
+}
+.col-75 {
+  padding-top: 0.3rem;
+}
+label {
+  color: #333;
+}
+#name {
+  width: 50%;
+  height: 2rem;
+  color: #333;
+}
+#comment {
+  width: 90%;
+  height: 5rem;
+  color: #333;
+  padding: 0;
+}
+input[type=text] {
+  border: 1px solid rgb(0, 0, 0, 0.3);
+  border-radius: 4px;
+  cursor: text;
+}
+.cmt, label {
+  font-weight: bold;
+  font-size: 1.0rem;
+}
+input[type=submit] {
+  padding: 0.5rem 1rem;
+  background-color: #21bef4;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 4px;
+}
+.cmts-wrp {
+  border-top: 1px solid #c1c1c1;
+  padding: 1rem 0.5rem;
+  background: #f0efef;
+}
+.plr {
+  margin: 0;
+  padding: 0;
+  font-size: 1.3rem;
+}
+.cmt-wrp {
+  background: #fff;
+  padding: 1rem 0.5rem;
+  border: 1px solid #c1c1c1;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+}
+.atr-name {
+  margin: 0 10%;
+}
+.cmt-date {
+  font-size: 0.9rem;
+}
+.cmt-date::before {
+  content: "\f017";
+  color: #000;
+  padding-right: 3px;
+}
+.cmt-spc {
+  margin: 1rem 0;
+}
+.like {
+  margin-right: 1rem;
+}
+.like:hover, .share:hover {
+  cursor: pointer;
+}
+.like::before {
+  content: url(../images/like.png);
+  padding-right: 3px;
+}
+.share::before {
+  content: url(../images/reply.png);
+  padding-right: 3px;
+}
